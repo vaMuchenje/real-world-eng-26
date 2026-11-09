@@ -1,0 +1,33 @@
+# Environment
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.mypy_cache/
+
+task-proposal-results/
+
+# OS
+.DS_Store
+
+# IDEs
+.vscode/
+.cursor/
+.idea/
+
+# Node
+node_modules/
+
+# Harbor
+jobs/
+
+# Harbor datasets
+datasets/
+
+# Local harbor check / analyze output
+review-jobs/
+analyze-jobs/
+harbor-output/

@@ -1,0 +1,14 @@
+RealWorldEngineer
+Copyright 2026 RealWorldEngineer contributors
+
+This project adapts the contribution structure, task format, review rubrics,
+static checks, and CI workflows of:
+
+  Terminal-Bench (https://github.com/harbor-framework/terminal-bench)
+  Harbor benchmark-template (https://github.com/harbor-framework/benchmark-template)
+
+Terminal-Bench is licensed under the Apache License, Version 2.0.
+Modifications: rebranded for RealWorldEngineer; CI adapted to run on GitHub-hosted
+runners with a pinned Harbor release instead of hosted Harbor; Discord-based
+proposal review replaced with GitHub Discussions; Terminal-Bench tasks,
+leaderboard, and release tooling removed.

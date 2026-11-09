@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "runs": [
+    {"kind": "baseline", "reward": 0.0, "note": "unmodified environment: /app/hello.txt does not exist", "date": "2026-10-01"},
+    {"kind": "reference", "reward": 1.0, "note": "oracle agent running solution/solve.sh", "agent": "oracle", "date": "2026-10-01"},
+    {"kind": "regrade", "rewards": [1.0, 1.0], "note": "the oracle's /app/hello.txt graded twice", "date": "2026-10-01"}
+  ]
+}
